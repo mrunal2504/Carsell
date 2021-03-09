@@ -95,7 +95,7 @@ class Car(models.Model):
     engine = models.CharField(max_length=100)
     transmission = models.CharField(max_length=100)
     interior = models.CharField(max_length=100)
-    miles = models.IntegerField()
+    kilometers = models.IntegerField()
     doors = models.CharField(choices=door_choices, max_length=10)
     passengers = models.IntegerField()
     vin_no = models.CharField(max_length=100)
