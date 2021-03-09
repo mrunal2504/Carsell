@@ -102,7 +102,7 @@ class Car(models.Model):
         ('AT','Automatic transmission'),
         ('CVT','Continuously variable transmission'),
         ('SA','Semiautomatic'),
-        ('DCT','dual clutch transmissions'),
+        ('DCT','Dual clutch transmissions'),
     )
 
 
