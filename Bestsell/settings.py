@@ -26,7 +26,7 @@ SECRET_KEY = '934nw3r62@!m0^ksgw3#31tntglnr%td+-_b89xpu2@q2zqv=d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["car4sell.herokuapp.com"]
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
