@@ -45,7 +45,7 @@ def contact(request):
         phone = request.POST['phone']
         message = request.POST['message']
 
-        email_subject = 'You have a new message from Carzone website regarding ' + subject
+        email_subject = 'You have a new message from Car4sell website regarding ' + subject
         message_body = 'Name: ' + name + '. Email: ' + email + '. Phone: ' + phone + '. Message: ' + message
 
         admin_info = User.objects.get(is_superuser=True)
@@ -53,7 +53,7 @@ def contact(request):
         send_mail(
                 email_subject,
                 message_body,
-                'rathan.kumar049@gmail.com',
+                'mrunaldhuri1999@gmail.com',
                 [admin_email],
                 fail_silently=False,
             )
